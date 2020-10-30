@@ -71,6 +71,14 @@ int search(int arr[],int n)
     }
 
 }
+void traversal(int arr[],int n)
+{
+    int i;
+    for(i=0;i<n;i++)
+    {
+        printf("[%d] ",a[i]);
+    }
+}
 int main()
 {
     int arr[100],n,i,input;
@@ -89,7 +97,6 @@ int main()
     {
     case 1:
         insert(arr,n);
-
         break;
     case 2:
         delete (arr,n);
@@ -97,6 +104,9 @@ int main()
     case 3:
         search(arr,n);
         break;
+    case 4:
+         traversal(arr,n);
+         break;
     default:
         printf("Give valid input: ");
         break;
