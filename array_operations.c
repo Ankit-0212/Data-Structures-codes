@@ -88,7 +88,7 @@ int main()
     for(i=0;i<n;i++)
     {scanf("%d",&arr[i]);}
     printf("Please choose an option from below:\n\n");
-    l1:printf("Press 1 for insertion.\nPress 2 for deletion.\nPress 3 for searching.\n");
+    l1:printf("Press 1 for insertion.\nPress 2 for deletion.\nPress 3 for searching.\nPress 4 for traversal.");
 
     printf("\nYour input: ");
     scanf("%d", &input);
